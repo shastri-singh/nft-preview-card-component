@@ -4,14 +4,38 @@ body {
 
 }
 
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
 
+p {
+    color: hsl(215, 32%, 27%);
+    font-family: 'Outfit', sans-serif;;
+}
 
+.ethereum {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+}
 
+.ethereum-timer {
+    font-family: 'Outfit', sans-serif;
+}
+
+.avatar-name {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
 
 
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    font-family: 'Outfit', sans-serif; 
+}
+span {
+    color: hsl(0, 0%, 100%);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
