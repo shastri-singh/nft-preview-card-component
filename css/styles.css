@@ -1,12 +1,40 @@
 body {
-    background-color: #0d192b;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.card-container{
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 150px;
+    height: 750px;
+    width: 300px;
+    border-radius: 25px;
     text-align: center;
 
+}
+
+.equilibrium-image {
+    border-radius: 25px;
+    width: 85%;
+    margin-top: 20px;
+}
+
+.text-conatiner-1 {
+    
 }
 
 h2 {
     color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
+    text-align: left;
+}
+
+.description {
+    text-align: left;
 }
 
 p {
@@ -14,13 +42,24 @@ p {
     font-family: 'Outfit', sans-serif;;
 }
 
+.text-container-2 {
+
+}
+
+.ethereum-icon {
+    
+}
 .ethereum {
     color: hsl(178, 100%, 50%);
     font-family: 'Outfit', sans-serif;
 }
 
+.clock-icon{
+    
+}
 .ethereum-timer {
     font-family: 'Outfit', sans-serif;
+
 }
 
 .avatar-name {
