@@ -38,28 +38,61 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### What I learned
 
-- 
-- 
-- 
-- Must set a div container for mouse hover effect
+- CSS colours with opacity.
+- Using CSS flex containers
+- Using div container for mouse hover effect
 
 
-To see how you can add code snippets, see below:
+Code snippets:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
+```css
+/* 
+    Mouse Hover Icon View Container
+*/
+.view-image-container {
+    margin-top: 215px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    top: 0px;
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* 
+    Mouse Hover Effect With Colour And Opacity
+*/
+.view-image-container:hover {
+    position: absolute;
+    background-image: url(/images/icon-view.svg);
+    /* 
+        Must use background-repeat: no-repeat to stop it 
+        from filling the cointainer with images.
+    */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* 
+        Set the opacity after the colour so, it will not
+        blockout the view-icon image.
+    */
+    background-color: hsl(178, 100%, 50%,0.3); 
+    top: 0px;
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 215px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 
 ### Continued development
 
@@ -84,10 +117,10 @@ Library To Learn:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Colors](https://www.w3schools.com/css/css3_colors.asp) - This was very helpful for learning about colours with opacity.
+- [CSS Flex Container](https://www.w3schools.com/css/css3_flexbox_container.asp) - My understanding of flex containers improved after reading this.
+- [CSS Opacity / Transparency](https://www.w3schools.com/css/css_image_transparency.asp) - These examples help me understand how CSS opacity can be used.
+- [CSS align-items Property](https://www.w3schools.com/cssref/css3_pr_align-items.php) - This helped me understand how align items can be used with display flex.
 
 ## Author
 
