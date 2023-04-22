@@ -94,6 +94,20 @@ Code snippets:
 }
 ```
 
+```css
+/* 
+    Days Left Section
+*/
+.days-left-container {
+    float: right;
+}
+
+.clock-icon {
+    float: left;
+    margin-right: 5px;
+}
+```
+
 ### Continued development
 
 Currently Learning:
