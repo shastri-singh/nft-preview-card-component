@@ -6,41 +6,41 @@
   <!-- displays site properly based on user's device -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-  <!-- Favicon -->
+  <!-- favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- CSS -->
+  <!-- css -->
   <link rel="stylesheet" href="/css/styles.css">
 
-  <!-- Font style -->
+  <!-- font style -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Outfit:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | NFT preview card component</title>
 
 </head>
 <body>
 
+  
   <div class="card-container">
+  <!-- start of card-container -->
 
-    <!-- image-container -->
-    <!-- <div class="image-container"> -->
-      
-      <img class="equilibrium-image" src="images/image-equilibrium.jpg" alt="equilibrium image">
+    <!-- equilibirum image -->
+    <img class="equilibrium-image" src="images/image-equilibrium.jpg" alt="equilibrium image">
 
-      <!-- equilibrium-container -->
-      <div class="equilibrium-container">
-        <h3 id="equilibrium">Equilibrium #3429</h3>
-        <p class="equilibrium-text">Our Equilibrium collection promotes balance and calm.</p>
-      </div>
+    <!-- nested view-image container for mouse hover effect -->
+    <div class="view-image-container"></div>
 
-    <!-- </div> -->
+    <!-- equilibrium-container -->
+    <div class="equilibrium-container">
+      <h3 id="equilibrium">Equilibrium #3429</h3>
+      <p class="equilibrium-text">Our Equilibrium collection promotes balance and calm.</p>
+    </div>
 
     <!-- ethereum-container -->
     <div class="ethereum-container">
       <img class="ethereum-icon" src="images/icon-ethereum.svg" alt="ethereum icon">
-      <div class="icon-view-image"></div>
       <span id="ethereum">0.041 ETH</span>
 
       <!-- days-left-container -->
@@ -61,9 +61,10 @@
       
     </div>
     
+  <!-- end of card-container -->
   </div>  
 
-  <!-- Credits -->
+  <!-- credits -->
   <div class="attribution"> 
     <span>Challenge by </span>
     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

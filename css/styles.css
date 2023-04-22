@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 /* 
-    Background Colour Section
+    Body Background Section
 */
 body {
     background-color: hsl(217, 54%, 11%);
@@ -13,27 +12,71 @@ body {
     height: 510px;
     width: 300px;
     background-color: hsl(216, 50%, 16%);
-    border-radius: 20px;
+    border-radius: 15px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 /* 
     Equilibrium Section
 */
-.equilibrium-container {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
 .equilibrium-image {
     width: 90%;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 15px;
     margin-left: 15px;
 }
 
+/* 
+    Mouse Hover Icon View Container
+*/
+.view-image-container {
+    margin-top: 215px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: absolute;
+    top: 0px;
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* 
+    Mouse Hover Effect With Colour And Opacity
+*/
+.view-image-container:hover {
+    position: absolute;
+    background-image: url(/images/icon-view.svg);
+    /* 
+        Must use background-repeat: no-repeat to stop it 
+        from filling the cointainer with images.
+    */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* 
+        Set the opacity after the colour so, it will not
+        blockout the view-icon image.
+    */
+    background-color: hsl(178, 100%, 50%,0.3); 
+    top: 0px;
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 215px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.equilibrium-container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 #equilibrium {
     font-family: 'Outfit', sans-serif;
@@ -45,7 +88,6 @@ body {
 .equilibrium-text {
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
-
 }
 
 /* 
@@ -67,8 +109,10 @@ body {
     float: left;
 }
 
+/* 
+    Days Left Section
+*/
 .days-left-container {
-    /* margin-left: 180px; */
     float: right;
 }
 
@@ -83,6 +127,9 @@ body {
     float:inline-end;
 }
 
+/* 
+    Horizontal Line
+*/
 hr {
     border-top: 1px solid hsl(215, 32%, 27%);
     border-bottom: 0px;
