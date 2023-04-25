@@ -165,7 +165,7 @@ hr {
     color: hsl(0, 0%, 100%);
 }
 
-#avatar-name:hover {
+.avatar-name:hover {
     color: hsl(178, 100%, 50%);
 }
 
