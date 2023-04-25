@@ -78,7 +78,7 @@ body {
     margin-right: 15px;
 }
 
-#equilibrium {
+.equilibrium {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     color: hsl(0, 0%, 100%);
@@ -103,7 +103,7 @@ body {
     margin-right: 5px;
 }
 
-#ethereum {
+.ethereum {
     font-family: 'Outfit', sans-serif;
     color: hsl(178, 100%, 50%);
     float: left;
@@ -121,10 +121,11 @@ body {
     margin-right: 5px;
 }
 
-#days-left {
+.days-left {
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
-    float:inline-end;
+    float: inline-end;
+    margin-right: 5px;
 }
 
 /* 
@@ -159,7 +160,7 @@ hr {
     margin-left: 10px;
 }
 
-#avatar-name {
+.avatar-name {
     font-family: 'Outfit', sans-serif;
     color: hsl(0, 0%, 100%);
 }
