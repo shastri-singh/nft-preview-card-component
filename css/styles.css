@@ -100,24 +100,40 @@ body {
 
 .ethereum-icon {
     float: left;
-    margin-right: 5px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    margin-right: 5px; */
 }
 
 .ethereum {
     font-family: 'Outfit', sans-serif;
     color: hsl(178, 100%, 50%);
     float: left;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left; */
 }
 
 /* 
     Days Left Section
 */
 .days-left-container {
-    float: right;
+    /* float: right; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
 }
 
 .clock-icon {
-    float: left;
+    /* float: left; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
     margin-right: 5px;
 }
 
