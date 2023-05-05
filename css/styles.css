@@ -88,6 +88,7 @@ body {
 .equilibrium-text {
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
+    text-align: left;
 }
 
 /* 
